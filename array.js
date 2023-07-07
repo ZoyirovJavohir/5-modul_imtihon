@@ -1,0 +1,42 @@
+const array = JSON.parse(localStorage.getItem("books")) || [
+  {
+    id: 1,
+    name: "Uolter Ayzekson: Kod Buzar. Jennifer Daudna, gen  ...",
+    src: "https://assets.asaxiy.uz/product/items/desktop/1d7747510d5813757b86f29cc4214a862023061213060597114t0ktWCpIlc.jpg.webp",
+    price: 89000,
+    sales: 13,
+    status: "published",
+  },
+  {
+    id: 2,
+    name: "Barbara Oukli: Raqamlar uchun yaralgan idrok.  ...",
+    src: "https://assets.asaxiy.uz/product/items/desktop/7f227a0ba8b83923ad5c76043e957cff2023062314214596055RgpoIXt8DH.jpg.webp",
+    price: 45000,
+    sales: 9,
+    status: "draft",
+  },
+  {
+    id: 3,
+    name: "Devid Bax, Jon Devid Mann: Latte omili. Moliyaviy ...",
+    src: "https://assets.asaxiy.uz/product/items/desktop/298124a8c14f2fd393bd11b4f643603c2023020309521141036WXt5YHNAJr.jpg.webp",
+    price: 39000,
+    sales: 19,
+    status: "published",
+  },
+  {
+    id: 4,
+    name: "Charlz Uilan: Yalang‘och iqtisodiyot. Murakkab   ...",
+    src: "https://assets.asaxiy.uz/product/items/desktop/abed9c4d4b18a8b0ba87f266f9edf1942023011917053725649tQNrccORg0.jpg.webp",
+    price: 69000,
+    sales: 23,
+    status: "draft",
+  },
+  {
+    id: 5,
+    name: "Piter Til, Bleyk Masters: Noldan birga. Startaplar ...",
+    src: "https://assets.asaxiy.uz/product/main_image/desktop//63f464b290ee3.jpg.webp",
+    price: 69000,
+    sales: 11,
+    status: "draft",
+  },
+];

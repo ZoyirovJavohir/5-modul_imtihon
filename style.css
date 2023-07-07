@@ -1,0 +1,17 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.status {
+  background-color: rgba(192, 251, 192, 0.998);
+}
+.card1 {
+  background: rgba(201, 199, 199, 0.175) !important;
+}
+
+.btn1:hover {
+  background-color: rgba(201, 199, 199, 0.175);
+  color: black;
+}
+
